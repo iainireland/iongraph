@@ -20,3 +20,6 @@ pdf: gv
 
 clean:
 	rm -f *.gv *.gv.png *.pdf
+
+tidy: pdf
+	rm -f *.gv *.gv.png *.gv.pdf
